@@ -12,14 +12,31 @@ const HeaderWrapper = styled.header`
   z-index: 1000;
 `;
 
+const HeaderNav = styled.nav`
+  margin-left: auto;
+  margin-right: auto;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  max-width: 960px;
+  z-index: 1000;
+  justify-content: space-between;
+  overflow-x: auto;
+  overflow-y: hidden;
+  /* background-color: ${({ theme }) => theme.colors.primary}; */
+  a:hover {
+    filter: brightness(0.6);
+  }
+`;
+
 const Header = () => {
 
 
   return (
       <HeaderWrapper>
-        <nav>
-
-        </nav>
+        <HeaderNav>
+          <Link>Hola</Link>
+        </HeaderNav>
       </HeaderWrapper>   
   );
 }
