@@ -67,9 +67,9 @@ module.exports ={
 		github: "https://github.com/MaikolSoro",
 		email: "maikolsoro.z1998@gmail.com"
 	  },
-		siteUrl: 'https://github.com/MaikolSoro/MyWebSite',
+		siteUrl: 'https://eager-bartik-a5a7d4.netlify.app/',
 		pathPrefix: '/gatsby-mywebsite', // Note: it must *not* have a trailing slash.
-		siteCover: '/images/home-v1.jpg',
+		siteCover: '/images/cover.jpeg',
 		background_color: '#ffffff',
 		theme_color: '#252527',
 		fontColor: "#000000cc",

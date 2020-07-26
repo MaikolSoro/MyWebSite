@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import PropTypes from 'prop-types'
 import styled, { ThemeProvider } from 'styled-components'
-import { motion } from 'framer-motion'
+import { motion } from 'framer-motion';
 import { ResetCSS, GlobalStyle, themes } from '../styles'
 import Header from '../header'
 import Footer from '../footer'
@@ -16,13 +16,13 @@ const variants = {
 const StyledContainer = styled.div`
   background: ${({ theme }) => theme.colors.background};
   overflow-x: hidden;
-`
+`;
 
 const Layout = ({ children, location }) => {
   const [theme, setTheme] = useDarkMode()
   useEffect(() => {
     animateOnScroll()
-  }, [])
+  }, [theme])
   return (
   <ThemeProvider theme={themes[theme || 'light']}>
     <ResetCSS />
