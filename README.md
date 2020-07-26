@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby's MYWEBSITE🌐🚀
+  Gatsby's MyWebSite🌐🚀
 </h1>
 
 This is my personal website where I show my current skills and activities on github.👨‍💻😎
@@ -169,7 +169,3 @@ Update the configuration file with your data. The configuration file is in ```da
 		]	
 }
 ```
-
-## It was useful?
-
-<a href="https://www.buymeacoffee.com/santosfrancisco" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-blue.png" alt="Buy Me A Coffee" width="180px" ></a>
