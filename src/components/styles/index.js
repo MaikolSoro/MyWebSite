@@ -1,4 +1,4 @@
-import GlobalStyle from './global-styles'
+import GlobalStyle from './global-style'
 import ResetCSS from './resetcss'
 import themes from './themes'
 

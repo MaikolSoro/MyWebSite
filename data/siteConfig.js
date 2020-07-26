@@ -67,24 +67,24 @@ module.exports ={
 		github: "https://github.com/MaikolSoro",
 		email: "maikolsoro.z1998@gmail.com"
 	  },
-	siteUrl: '',
-	pathPrefix: '/gatsby-mywebsite', // Note: it must *not* have a trailing slash.
-	siteCover: '/images/cover.jpeg',
-	googleAnalyticsId: 'UA-000000000-1',
-	background_color: '#ffffff',
-	theme_color: '#25303B',
-	fontColor: "#000000cc",
-	enableDarkmode: true, // If true, enables dark mode switch
-	display: 'minimal-ui',
-	icon: 'src/assets/gatsby-icon.png',
-	headerLinks: [
-		{
-			label: 'Home',
-			url: '/',
-		},
-		{
-			label: 'Portifolio',
-			url: '/portifolio',
-		}
-	]	
+		siteUrl: 'https://github.com/MaikolSoro/MyWebSite',
+		pathPrefix: '/gatsby-mywebsite', // Note: it must *not* have a trailing slash.
+		siteCover: '/images/cover.jpeg',
+		googleAnalyticsId: 'UA-000000000-1',
+		background_color: '#ffffff',
+		theme_color: '#25303B',
+		fontColor: "#000000cc",
+		enableDarkmode: true, // If true, enables dark mode switch
+		display: 'minimal-ui',
+		icon: 'src/assets/gatsby-icon.png',
+		headerLinks: [
+			{
+				label: 'Home',
+				url: '/',
+			},
+			{
+				label: 'Portifolio',
+				url: '/portifolio',
+			}
+		]	
 }
