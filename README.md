@@ -17,7 +17,6 @@ This is my personal website where I show my current skills and activities on git
 
 ### Features
 - Responsive Design, optimized for Mobile devices
-- Google Analytics
 - SEO
 - PWA
 - Dark mode
