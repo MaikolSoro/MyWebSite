@@ -1,5 +1,5 @@
-import React from "react";
-import jsonFetch from "simple-json-fetch";
+import React from 'react';
+import jsonFetch from 'simple-json-fetch';
 import styled from 'styled-components';
 import { GoStar, GoRepoForked, GoLinkExternal } from 'react-icons/go';
 import siteConfig from '../../../data/siteConfig'
@@ -40,7 +40,7 @@ class Repositories extends React.Component {
                       <a 
                         className='repositories__repo-link' 
                         href={repo.html_url}
-                        target="_blank"
+                        target='_blank'
                       >
                         <strong>{repo.name}</strong>
                       </a>
