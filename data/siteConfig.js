@@ -69,14 +69,13 @@ module.exports ={
 	  },
 		siteUrl: 'https://github.com/MaikolSoro/MyWebSite',
 		pathPrefix: '/gatsby-mywebsite', // Note: it must *not* have a trailing slash.
-		siteCover: '/images/cover.jpeg',
-		googleAnalyticsId: 'UA-000000000-1',
+		siteCover: '/images/home-v1.jpg',
 		background_color: '#ffffff',
-		theme_color: '#25303B',
+		theme_color: '#252527',
 		fontColor: "#000000cc",
 		enableDarkmode: true, // If true, enables dark mode switch
 		display: 'minimal-ui',
-		icon: 'src/assets/gatsby-icon.png',
+		icon: 'static/images/avatar.jpg',
 		headerLinks: [
 			{
 				label: 'Home',
