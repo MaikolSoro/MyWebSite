@@ -83,11 +83,10 @@ Update the configuration file with your data. The configuration file is in ```da
 	siteDescription: `Create your online curriculum in just a few minutes with this starter`,
 	keyWords: ['gatsbyjs', 'react', 'curriculum'],
 	authorName: 'Michael Soro',
-	twitterUsername: '@maikol_soro',
-	githubUsername: 'MaikolSoro',
+	twitterUsername: '',
+	githubUsername: '',
 	authorAvatar: '/images/avatar.jpg',
-	authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-	In 2017, I started to study Java university <br />`,
+	authorDescription: ` <br />`,
 
 	skills: [
 		{
@@ -142,12 +141,12 @@ Update the configuration file with your data. The configuration file is in ```da
 		/* more portifolio items here */
 	  ],
 	  social: {
-		twitter: "https://twitter.com/@maikol_soro",
+		twitter: "",
 		linkedin: "",
 		github: "https://github.com/MaikolSoro",
-		email: "maikolsoro.z1998@gmail.com"
+		email: ""
 	  },
-		siteUrl: 'https://github.com/MaikolSoro/MyWebSite',
+		siteUrl: '',
 		pathPrefix: '/gatsby-mywebsite', // Note: it must *not* have a trailing slash.
 		siteCover: '/images/home-v1.jpg',
 		background_color: '#ffffff',
