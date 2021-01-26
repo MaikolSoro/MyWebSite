@@ -6,7 +6,8 @@ module.exports = {
 	twitterUsername: '@maikol_soro',
 	githubUsername: 'MaikolSoro',
 	authorAvatar: '/images/avatar.jpg',
-	authorDescription: `Software enginner`,
+	authorDescription: ` Developer, passionate about what I do. I am a web developer, I love creating products designed to improve people's lives. 🌐❤
+ Currently I focus on Android Kotlin, GraphQL. `,
 
 	skills: [
 
