@@ -1,8 +1,8 @@
 import React from 'react';
-import styled, { css } from 'styled-components';
-import { Container, Row, Col } from 'react-awesome-styled-grid';
+import styled, {css} from 'styled-components';
+import {Container, Row, Col} from 'react-awesome-styled-grid';
 import siteConfig from '../../data/siteConfig';
-import { withPrefix } from "gatsby";
+import {withPrefix} from "gatsby";
 import loadable from '@loadable/component';
 import Hero from '../components/hero';
 import SEO from '../components/SEO';
@@ -23,7 +23,7 @@ const JobCard = styled.a`
   text-decoration: none;
   color: inherit;
 
-  ${({ href }) => href && css`
+  ${({href}) => href && css`
     &:hover ${Image}{
       transition: transform .5s;
       transform: translateY(-5px);
@@ -31,9 +31,9 @@ const JobCard = styled.a`
   `}
 `;
 
-const Portifolio = ({ className, location }) => {
+const Portifolio = ({className, location}) => {
   const title = "Portifolio"
-  const { keywords, portifolio } = siteConfig
+  const {keywords, portifolio} = siteConfig
   return (
     <Layout location={location}>
       <SEO
@@ -42,7 +42,7 @@ const Portifolio = ({ className, location }) => {
       />
 
       <Hero
-        heroImg={withPrefix('/images/')}
+        heroImg={withPrefix('/images/js.png')}
         title={title}
       />
 
