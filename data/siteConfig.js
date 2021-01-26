@@ -1,4 +1,4 @@
-module.exports ={
+module.exports = {
 	siteTitle: 'Hi! I\'m Michael!',
 	siteDescription: `Create your online curriculum in just a few minutes with this starter`,
 	keyWords: ['gatsbyjs', 'react', 'curriculum'],
@@ -6,84 +6,122 @@ module.exports ={
 	twitterUsername: '@maikol_soro',
 	githubUsername: 'MaikolSoro',
 	authorAvatar: '/images/avatar.jpg',
-	authorDescription: `Developer, passionate about what I do. Always interested in how the sites were made, I started to study HTML by hobby. <br />
-	In 2017, I started to study Java university <br />`,
+	authorDescription: `Software enginner`,
 
 	skills: [
+
 		{
-		  name: 'HTML',
-		  level: 90
+			name: 'Javascript',
+			level: 70
 		},
 		{
-		  name: 'CSS',
-		  level: 70
+			name: 'Typescript',
+			level: 70
 		},
 		{
-		  name: 'Javascript',
-		  level: 95
+			name: 'NodeJs',
+			level: 70
 		},
 		{
-		  name: 'NodeJs',
-		  level: 90
+			name: 'React',
+			level: 85
 		},
 		{
-		  name: 'React',
-		  level: 85
+			name: 'GraphQL',
+			level: 80
 		},
 		{
-		  name: 'Angular',
-		  level: 70
+			name: 'NextJs',
+			level: 75
 		},
 		{
-		  name: 'GraphQL',
-		  level: 85
-		},
-		{
-		  name: 'NextJs',
-		  level: 85
-		},
-		{
-		  name: 'GatsbyJs',
-		  level: 85
+			name: 'React Native',
+			level: 70
 		},
 		/* more skills here */
 	],
 	portifolio: [
 		{
-		  image: "",
-		  description: "WebSite",
-		  url: ""
+			image: "/images/CRM.png",
+			description: "CRM Clients",
+			url: "https://github.com/MaikolSoro/crmcliente"
 		},
 		{
-		  image: "",
-		  description: "",
-		  url: ""
+			image: "/images/drinks.png",
+			description: " Drinks",
+			url: "https://github.com/MaikolSoro/bebidas"
 		},
+		{
+			image: "/images/tasks.png",
+			description: " Project Task",
+			url: "https://github.com/MaikolSoro/AdminProjectTask"
+		},
+		{
+			image: "/images/uptask.png",
+			description: "UpTask",
+			url: "https://github.com/MaikolSoro/upTaskNative"
+		},
+		{
+			image: "/images/clime.png",
+			description: "App Clime",
+			url: "https://github.com/MaikolSoro/react-native-clima"
+		},
+		{
+			image: "/images/web.png",
+			description: "Web Site",
+			url: "https://github.com/MaikolSoro/web-client"
+		},
+		{
+			image: "/images/food.png",
+			description: "Food",
+			url: "https://github.com/MaikolSoro/Foody"
+		},
+		{
+			image: "/images/product.png",
+			description: "Product Hunt",
+			url: "https://github.com/MaikolSoro/ProductHunt"
+		},
+		{
+			image: "/images/hotel.png",
+			description: "Hotel",
+			url: "https://zen-khorana-7cffaf.netlify.app"
+		},
+		{
+			image: "/images/devJobs.png",
+			description: "devJobs",
+			url: "https://gitlab.com/Maikol/devjobs"
+		},
+		{
+			image: "/images/redux.png",
+			description: "Example Redux",
+			url: "https://github.com/MaikolSoro/crudredux"
+		},
+
 		/* more portifolio items here */
-	  ],
-	  social: {
+	],
+	social: {
 		twitter: "https://twitter.com/@maikol_soro",
 		linkedin: "",
 		github: "https://github.com/MaikolSoro",
 		email: "maikolsoro.z1998@gmail.com"
-	  },
-		siteUrl: 'https://eager-bartik-a5a7d4.netlify.app/',
-		pathPrefix: '/gatsby-mywebsite', // Note: it must *not* have a trailing slash.
-		siteCover: '/images/cover.jpeg',
-		background_color: '#ffffff',
-		theme_color: '#252527',
-		fontColor: "#000000cc",
-		enableDarkmode: true, // If true, enables dark mode switch
-		display: 'minimal-ui',
-		icon: 'static/images/avatar.jpg',
-		headerLinks: [
-			{
-				label: 'Home',
-				url: '/',
-			},
-			{
-				label: 'Portifolio',
-				url: '/portifolio',
-			}
-		]	
+	},
+	siteUrl: 'https://eager-bartik-a5a7d4.netlify.app/',
+	pathPrefix: '/gatsby-mywebsite', // Note: it must *not* have a trailing slash.
+	siteCover: '/images/cover.jpeg',
+	background_color: '#ffffff',
+	theme_color: '#252527',
+	fontColor: "#000000cc",
+	enableDarkmode: true, // If true, enables dark mode switch
+	display: 'minimal-ui',
+	icon: 'static/images/avatar.jpg',
+	headerLinks: [
+		{
+			label: 'Home',
+			url: '/',
+		},
+		{
+			label: 'Portifolio',
+			url: '/portifolio',
+		}
+	]
 }
